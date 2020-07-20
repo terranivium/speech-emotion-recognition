@@ -5,6 +5,8 @@
 
 ##	-	Discussed reduction in dimensionality
 		+	Potential to move away from standard classification (see papers sent from supervisor) - 
+		
+			- UPDATE 15/07/2020, becomes a regression problem given solution context, research effective discretisation!
 
 			See the dimensional models section of the Wikipedia page for an overview: https://en.wikipedia.org/wiki/Emotion_classification
 
