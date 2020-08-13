@@ -4,6 +4,11 @@
 #### University of Glasgow
 
 Files:
-+ ser.ipynb - main notebook
-+ augmentdata.ipynb - data augmentation batch script
-+ bgnoisegenerator.ipynb - script for generating real-world background noise samples 
++ speed-based-emotion-recognition.ipynb - main notebook
+	- PyTorch MLP model
+	- sklearn mlp, randomforest examples
++ augmentdata.ipynb - data augmentation batch scripts
+	- white noise
+	- background noise
+	- overdrive
+	- algorithmic reverb
