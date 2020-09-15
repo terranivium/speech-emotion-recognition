@@ -1,16 +1,15 @@
 ## MSc Software Development (2019-2020) 
 ### University of Glasgow
 
-Source-code for the research paper 'Deep learning architectures for speech emotion recognition'.
+Source-code for the research paper 'Deep learning for robust dimensional characterisation of affect in speech'.
 
 #### Files:
 	'speech_emotion_recognition.ipynb' - main notebook
 		- PyTorch (MLP) model
-		- sklearn randomforest baseline example
 
 	'augment_data.ipynb' - data augmentation batch scripts
 		- white noise
-		- background noise, simulated chatter
+		- simulated chatter, background noise
 		- overdrive
 		- reverb
 
@@ -23,16 +22,15 @@ Source-code for the research paper 'Deep learning architectures for speech emoti
 
 #### Usage guide:
 	+ Downloading datasets requires Git-LFS
-
 		"brew install git-lfs"
 
-	+ Clone repo
+	+ Clone the repo
 
-	+ Run requirements.txt
-		"pip install requirements.txt"
+	+ Run requirements.txt,
+		"pip install -r requirements.txt"
 
-		- (NOTE: if using collab, portaudio install required, install via brew),
-		"!brew install portaudio"
+	+ (NOTE: if using collab, portaudio install is required, install via brew),
+		"brew install portaudio"
 
 	+ (not required) Use speech_emotion_recognition notebook to train, validate and test model
 
