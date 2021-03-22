@@ -26,9 +26,6 @@ Source-code for the research paper 'Deep learning for robust dimensional charact
 
 	+ Clone the repo
 
-	+ Run requirements.txt,
-		"pip install -r requirements.txt"
-
 	+ (NOTE: if using collab, portaudio install is required, install via brew),
 		"brew install portaudio"
 
