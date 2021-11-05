@@ -42,16 +42,6 @@ Source-code for the research paper 'Deep learning for robust dimensional charact
 	+ TESS
 
 #### Usage guide:
-	+ Downloading datasets requires Git-LFS
-		"brew install git-lfs"
-
-	+ Clone the repo
-
-	+ (NOTE: if using collab, portaudio install is required, install via brew),
-		"brew install portaudio"
-
-	+ (not required) Use speech_emotion_recognition notebook to train, validate and test model
-
-	+ To simply generate results and plots for PyTorch implementation, 
+	+ To simply generate results and plots, 
 	skip to and run cells in 'Testing' section of 'speech_emotion_recognition.ipynb', 
 	this will load the provided 'best model' state.
